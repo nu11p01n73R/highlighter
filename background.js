@@ -9,7 +9,7 @@ var colors = {
 for (var color in colors) {
     browser.contextMenus.create({
         id: color,
-        title: "",
+        title: '',
         icons: {
             16: `icons/${color}.svg`,
         }
